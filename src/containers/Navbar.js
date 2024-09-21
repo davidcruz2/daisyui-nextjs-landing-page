@@ -18,15 +18,15 @@ function Navbar(){
     }
 
     useEffect(() => {
-        // themeChange(false)
-        // console.log(currentTheme)
-        // if(currentTheme === null){
-        //     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ) {
-        //         setCurrentTheme("dark")
-        //     }else{
-        //         setCurrentTheme("light")
-        //     }
-        // }
+         themeChange(false) /**/
+         console.log(currentTheme)
+         if(currentTheme === null){
+             if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ) {
+                 setCurrentTheme("dark")
+             }else{
+                 setCurrentTheme("light")
+             }
+         }
         // 👆 false parameter is required for react project
       }, [])
 
@@ -45,7 +45,7 @@ function Navbar(){
         <div className="md:flex-1 flex-none px-2 mx-2">
             <Link href="/">
             <span className='font-bold text-xl'>
-                <img className="mask inline-block mr-2 mask-circle w-12" src="/android-chrome-192x192.png" /> Web Design AI
+                <img className="mask inline-block mr-2 mask-circle w-12" src="/android-chrome-192x192.png" /> Bethel Music
             </span>
             </Link>
         </div>
@@ -57,13 +57,13 @@ function Navbar(){
           </ul>
 
         
-          {/* <label className="swap ">
+          {/* */} <label className="swap ">
                 <input type="checkbox"/>
                 <SunIcon data-set-theme="light" data-act-class="ACTIVECLASS" className={"fill-current w-5 h-5 "+(currentTheme === "dark" ? "swap-on" : "swap-off")}/>
                 <MoonIcon data-set-theme="dark" data-act-class="ACTIVECLASS" className={"fill-current w-5 h-5 "+(currentTheme === "light" ? "swap-on" : "swap-off")} />
-            </label> */}
+            </label> 
          
-          {/* <div className="dropdown ml-6 dropdown-end">
+          {/**/} <div className="dropdown ml-6 dropdown-end">
 
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                     <div className="w-6 rounded-full">
@@ -79,7 +79,7 @@ function Navbar(){
                     <div className="divider mt-0 mb-0"></div>
                     <li><a onClick={logoutUser}>Logout</a></li>
                 </ul>
-            </div> */}
+            </div> 
         </div>
         <div className="navbar-end hidden lg:flex">
             <NavProfileLinks />
