@@ -57,13 +57,13 @@ function Navbar(){
           </ul>
 
         
-          {/* */} <label className="swap ">
+          {/* <label className="swap ">
                 <input type="checkbox"/>
                 <SunIcon data-set-theme="light" data-act-class="ACTIVECLASS" className={"fill-current w-5 h-5 "+(currentTheme === "dark" ? "swap-on" : "swap-off")}/>
                 <MoonIcon data-set-theme="dark" data-act-class="ACTIVECLASS" className={"fill-current w-5 h-5 "+(currentTheme === "light" ? "swap-on" : "swap-off")} />
             </label> 
          
-          {/**/} <div className="dropdown ml-6 dropdown-end">
+          */} <div className="dropdown ml-6 dropdown-end">
 
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                     <div className="w-6 rounded-full">
