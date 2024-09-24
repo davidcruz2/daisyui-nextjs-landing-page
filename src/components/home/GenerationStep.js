@@ -3,9 +3,9 @@ import ArrowDownOnSquareIcon  from '@heroicons/react/24/outline/ArrowDownOnSquar
 import ArrowUpOnSquareIcon  from '@heroicons/react/24/outline/ArrowUpOnSquareIcon'
 
 const generationStepData = [
-    {icon : <ArrowUpOnSquareIcon className='w-10 h-10 inline-block mr-2' />, description : "Step 1 Desciption"},
-    {icon : <DocumentTextIcon className='w-10 h-10 inline-block mr-2' />, description : "Step 2 Desciption"},
-    {icon : <ArrowDownOnSquareIcon className='w-10 h-10 inline-block mr-2' />, description : "Step 3 Desciption"},
+    {icon : <ArrowUpOnSquareIcon className='w-10 h-10 inline-block mr-2' />, description : "Aprende a adorar"},
+    {icon : <DocumentTextIcon className='w-10 h-10 inline-block mr-2' />, description : "Practica Musica"},
+    {icon : <ArrowDownOnSquareIcon className='w-10 h-10 inline-block mr-2' />, description : "Ejerce el don que se te a entregado"},
 ]
 
 function GenerationStep(){
